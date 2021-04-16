@@ -2,7 +2,7 @@
 This code lets you take the results of a product survey using JTBD and find hidden clusters in the data to help you build better more focused products
 
 ## Prerequisites
-You just need Python and a few libraries to run
+You just need Python and a few libraries to run plus your survey results
 
 ### Check Python Installation
 
@@ -27,20 +27,20 @@ Install [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/in
 
 ### Run with test survey 'jtbd_survey.csv' included 
 
-1. Download both x and y to a folder of your choice
+1. Download both [jtbd_kmeans_clustering.py](https://github.com/adampdarcy/jtbd_kmeans_clustering/blob/main/jtbd_kmeans_clustering.py) and [jtbd_survey.csv](https://github.com/adampdarcy/jtbd_kmeans_clustering/blob/main/jtbd_survey.csv) to a folder of your choice
 
 2. Run the program by typing the following into your console/terminal:
    ```python
    python jtbd_kmeans_clustering.py
    ```
 
-3. Observe if a new file was created called 'clustered_survey.csv' with results
+3. Observe if a new file was created called 'clustered_survey.csv' which contained a new column called Cluster
 
 ### Run with your own survey data 
 
 1. Copy paste your own survey responses into 'jtbd_survey.csv' 
 
-2. Edit the program using any text editor to specify the column indexes for the responses you want to cluster around
+2. Edit the program using any text editor to specify the [column](https://www.shanelynn.ie/pandas-iloc-loc-select-rows-and-columns-dataframe/) indexes for the responses you want to cluster around
    ```python
    jtbd_needs_only = training.iloc[:,49:96]
    ```
@@ -50,4 +50,4 @@ Install [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/in
    python jtbd_kmeans_clustering.py
    ```
    
-4. Open the new 'clustered_survey.csv' file to see the cluster column added
+4. Open the new 'clustered_survey.csv' file to see your new Cluster column added
