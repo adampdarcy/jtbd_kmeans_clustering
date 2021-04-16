@@ -4,22 +4,14 @@ This code lets you take the results of a product survey using JTBD and find hidd
 ## Prerequisites
 You just need Python and a few libraries to run
 
-### Python Installation
+### Check Python Installation
 
-1. Python comes preinstalled on most computers. On Windows open [console/terminal](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10) and on Mac open [terminal](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) and typeClone the repo
-   ```
+1. Python comes preinstalled on most computers ([download](https://www.python.org/downloads/) if not). On Windows open [console/terminal](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10) and on Mac open [terminal](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) and type:
+   ```python
    python --version
    ```
 
-
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+2. Write a test program to output some text:
+   ```python
+   print("Hello, World!")
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
