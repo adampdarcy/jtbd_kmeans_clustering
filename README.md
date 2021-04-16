@@ -7,7 +7,9 @@ You just need Python and a few libraries to run
 ### Python Installation
 
 1. Python comes preinstalled on most computers. On Windows open [console/terminal](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10) and on Mac open [terminal](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) and typeClone the repo
-   ```python --version```
+   ```python --version
+   ```
+
 
 2. Clone the repo
    ```sh
