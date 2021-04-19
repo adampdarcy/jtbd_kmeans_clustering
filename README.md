@@ -40,7 +40,7 @@ Install [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/in
 
 1. Copy paste your own survey responses into 'jtbd_survey.csv' 
 
-2. Edit the program using any text editor to specify the [column](https://www.shanelynn.ie/pandas-iloc-loc-select-rows-and-columns-dataframe/) indexes for the responses you want to cluster around (you can put range of column numbes e.g. 49:96 or a list e.g. 49,50,95,96)
+2. Edit the program using any text editor to specify the [column](https://www.shanelynn.ie/pandas-iloc-loc-select-rows-and-columns-dataframe/) indexes for the responses you want to cluster around (you can put range of column numbers e.g. 49:96 or a list e.g. 49,50,95,96)
    ```python
    jtbd_needs_only = training.iloc[:,49:96]
    ```
